@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Invite to game{% endblock %}
+
+
+{% block body %}
+{# <pre>
+    {{ dump(status) }}
+</pre>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-9 col-auto bg-light">
+            <div class="row justify-content-center">
+                <h1 class="display-6 text-center">Join Game</h1>
+
+              
+                {% if status == 'member' %}
+                <i class="fa-solid fa-person-circle-exclamation fa-10x text-center"></i>     
+                <p class="lead text-center">You are already member of this party</p>
+
+      
+                {% elseif status == 'locked' %}
+                <i class="fa-solid fa-user-lock fa-10x text-center"></i>
+                    <p class="lead text-center">Sorry but this party is locked contact with it's creator to join</p>
+                {% elseif status == 'invite' %}
+                <i class="fa-solid fa-person-circle-question fa-10x text-center"></i>
+                <p class="lead text-center">Would you like to join this party?</p>
+                {{ form_start(accForm) }}
+                <div class="d-flex flex-row justify-content-center">
+                
+
+                    <div class="p-2 ">
+                        {{ form_row(accForm.yes) }}
+                    </div>
+                    <div class="p-2 ">
+                        {{ form_row(accForm.no) }}
+                    </div>
+                       
+                <div>
+                {{ form_end(accForm) }}
+
+            
+                {% endif %}
+            </div>    
+        </div>
+    </div>
+</div> #}
+{% endblock %}

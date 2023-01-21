@@ -1,0 +1,256 @@
+.vote-form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.time-display {
+    
+    border:0; 
+    color:#f6931f; 
+    font-weight: 400;
+    width: 250px;
+    font-size: 40px;
+    padding: 2px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+    
+}
+
+.time-input {
+    width: 70px;
+    /* background-color: #f6931f; */
+}
+
+.date {
+    margin-right: 30px;
+}
+
+.bg-green {
+    background-color: rgb(134, 253, 128);
+    width: 156px;
+}
+
+.bg-red {
+    background-color: rgb(255, 130, 85);
+    width: 156px;
+}
+
+.ui-slider-range {
+background-color: #212529;
+}
+
+.ui-state-active {
+    background-color: #f9f6f6;
+    color: #f6931f;
+}
+
+.vote-display {
+    display: inline-block;
+    font-weight: 400;
+    color: orange;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: #212529 1px solid;
+    border-right: #212529 1px solid;
+    margin-left: -1px;
+}
+
+.delete-vote {
+    display: inline-block;
+    color: #212529;
+    /* width: 100px; */
+
+}
+
+.delete-vote:hover {
+
+    color: orange;
+    /* width: 100px; */
+
+}
+
+th.game-table-header {
+    font-weight: bold;
+    text-align: center;
+    background-color: #212529;
+    color: #e1e1e1;
+    height: 3em;
+}
+
+td.game-table {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 3em;
+}
+
+.vote-header {
+    margin-left: -10px;
+    margin-right: -10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #212529;
+    color: #e1e1e1;
+}
+.display-table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.form-panel {
+    height: 100%;
+    padding: 2.5em 1em 0 1em;
+    position: relative;
+
+}
+
+.party-header {
+
+    font-weight: bold;
+    text-align: center;
+    background-color: #212529;
+    color: #e1e1e1;
+    position:absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+div.hidden-date {
+    display: none;
+}
+
+div.form-time-input {
+    display: inline-block;
+    text-justify: center;
+    
+}
+
+.time-select{
+    width:70px;
+}
+
+div.form-time-separator {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+    
+}
+
+.date-display {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.info-label {
+    font-size: 17px;
+    font-weight: 300;
+    color:#2a2d2f;
+    border: solid 1px #2a2d2f;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 16px;
+    margin-right: 20px;
+    -moz-box-shadow: 0 0 5px rgb(149, 149, 149);
+    -webkit-box-shadow: 0 0 5px rgb(149, 149, 149);
+    box-shadow: 0 0 5px rgb(149, 149, 149);
+
+}
+
+.player-name {
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.party-name {
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.info-display {
+    font-size: 20px;
+}
+
+div.custom-vote-display {
+    display: inline-block;
+    width: auto;
+    font-size: 17px;
+    font-weight: 400;
+    color:white;
+    background-image: linear-gradient(rgb(65, 65, 65), rgb(77, 76, 76));
+    border: solid 1px white;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 16px;
+    margin-left: 10px;
+    margin-right: 10px;  
+    margin-bottom: 7px;
+    -moz-box-shadow: 0 0 5px rgb(149, 149, 149);
+    -webkit-box-shadow: 0 0 5px rgb(149, 149, 149);
+    box-shadow: 0 0 5px rgb(149, 149, 149);
+
+}
+
+div.custom-vote-display:hover {
+    color:black;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(230, 229, 229));
+    border: solid 1px black;
+}
+
+.vote-trash {
+    padding-left: 7px;
+    margin-left: 7px;
+    font-size: 15px;
+    border-left: 1px solid white;
+}
+
+.vote-trash:hover {
+    padding-left: 7px;
+    font-size: 15px;
+    color: red;
+    border-left: 1px solid white;
+    
+}
+
+.custom-form-label {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.custom-form-row {
+    
+    padding-bottom: 15px;
+    border-bottom: solid 1px rgb(234, 234, 234);;
+}
+
+.toasted {
+    z-index: 111;
+}
+
+.active-member-option {
+    background-color: white;
+}
+
+.inactive-member-option {
+    background-color: hsl(0, 0%, 90%);
+}
+.option-info {
+    margin-left: 15px;
+}
+
+.lock-icon{
+    margin-left: 10Zpx;
+}
+
+.full-width {
+    width: 100%;
+}
